@@ -195,16 +195,19 @@ body {
     color: #434B34;
     padding: 2.6vw 4vw;
 }
-.elex-1 h3{
+
+.elex-1 h3 {
     margin-bottom: 1vw;
     font-family: pp woodland;
     font-size: 2.4vw;
     font-weight: 100;
 }
-.elex-1 p{
+
+.elex-1 p {
     font-size: 0.8vw;
 }
-.elex-2 h5{
+
+.elex-2 h5 {
     background-color: #5B6647;
     color: #E3E3C4;
     padding: 4px 18px;
@@ -215,15 +218,17 @@ body {
     position: relative;
     overflow: hidden;
 }
-.elex-2 h5 i{
+
+.elex-2 h5 i {
     position: absolute;
     background-color: #E3E3C4;
     color: #5B6647;
-    padding:5px 18px;
+    padding: 5px 18px;
     left: 0;
     opacity: 0;
     top: 0;
 }
+
 .elem:hover .elem-part2 {
     width: 78%;
     background-color: #5B6647;
@@ -234,11 +239,152 @@ body {
     transform: translateX(0);
 }
 
-.elem:hover .elex-2 h5{
+.elem:hover .elex-2 h5 {
     background-color: #E3E3C4;
     color: #5B6647;
 }
 
-.elem:hover .elex-2 h5 i{
+.elem:hover .elex-2 h5 i {
     opacity: 1;
+}
+
+
+#page4 {
+    height: 100vh;
+    width: 100%;
+    background-color: #dadada;
+    /* background-color: red; */
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+    transform: scale(0.6) translateX(-350px) translateY(188px);
+}
+
+.swiper-slide {
+    width: 75%;
+}
+
+.swiper-slide:nth-child(4n) {
+    width: 20%;
+}
+
+.swiper-button-next {
+    color: #fff;
+    background-color: #5B6647;
+    height: 20px;
+    font-size: 14px;
+    padding: 0 20px;
+    border-radius: 50px;
+    position: absolute;
+    top: 10%;
+    right: 5%;
+}
+
+.swiper-button-next::after {
+    content: "";
+}
+
+.swiper-button-prev {
+    color: #fff;
+    background-color: #5B6647;
+    height: 20px;
+    font-size: 14px;
+    padding: 0 20px;
+    border-radius: 50px;
+    position: absolute;
+    top: 10%;
+    left: 85%;
+}
+
+.swiper-button-prev::after {
+    content: "";
+}
+
+.swiper-slide-active img {
+    transform: scale(1) translateX(0);
+
+}
+
+.swiper-pagination {
+    top: 7.5%;
+    left: 87.5%;
+    font-size: 10px;
+    color: #5B6647;
+    font-weight: 600;
+    /* background-color: red; */
+    height: 3%;
+    width: 5%;
+}
+
+#page5{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    padding: 5vw 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#page5-left{
+    height: 100%;
+    width: 35%;
+    background-image: url(https://hotelodisej.com/wp-content/uploads/bf-advanced-images/230/ALH_Odisej_outsidepool_01-scaled-480x0.jpg);
+    border-radius: 20px;
+    background-size: cover;
+    background-position: center;
+    
+
+}
+#page5-center{
+    height: 100%;
+    width: 30%;
+    border-radius: 20px;
+    padding: 5vw 5vw;
+    text-align: center;
+}
+#page5-center h1{
+    font-size: 4vw;
+    text-align: center;
+    line-height: 4vw;
+    font-weight: 100;
+    color: #434B34;
+    font-family: PP woodland;
+    margin-bottom: 5vw;
+}
+#page5-center p{
+    font-size: 1vw;
+    text-align: center;
+    
+    font-weight: 500;
+
+  
+}
+#page5-right{
+    height: 100%;
+    width: 35%;
+    background-image: url(https://hotelodisej.com/wp-content/uploads/bf-advanced-images/388/alh-img-2-480x0.jpeg);
+    border-radius: 20px;
+    background-size: cover;
+    background-position: center;
+
 }
